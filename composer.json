@@ -1,0 +1,23 @@
+{
+    "name": "pcntl_job/pcntl_job",
+    "type": "library",
+    "description": "Adapters for pcntl, cURL etc.",
+    "keywords": ["pcntl"],
+    "homepage": "https://github.com/andreyserdjuk/pcntl_job.git",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrey Serdjuk",
+            "email": "ase6120@gmail.com",
+            "homepage": "https://www.facebook.com/andreyserdjuk",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3",
+        "knplabs/gaufrette": "^0.2.1"
+    },
+    "autoload": {
+        "psr-4": {"AndreySerdjuk\\SoapClientExtended\\":"src/"}
+    }
+}
